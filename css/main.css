@@ -1,0 +1,116 @@
+body {
+    position: relative;
+}
+header {
+    height: 50px;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    opacity: 0.5;
+    z-index: 9;
+}
+.navbar-li {
+    display: inline-block;
+    font-size: 25px;
+    margin: 10px ;
+    padding: 0 20px;
+}
+.navbar-li a {
+    color: yellow;
+    text-decoration: none;
+}
+.navbar-li a:hover {
+    cursor:pointer;
+    color: black;
+    text-decoration: underline;
+    background-color: yellow;
+}
+/* content */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    max-width: 500px;
+    border:2px solid black;
+    margin: 10px 20px;
+    justify-content: space-between;
+    display: flex;
+    background-color: chartreuse;
+    margin-bottom: 75px;
+}
+.card img {
+    height: 400px;
+    width: 300px;
+}
+.card-p {
+    font-weight: bold;
+    font-size: 17px;
+    padding: 2px;
+}
+/* footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 70px;
+    width: 100%;
+    background-color: purple;
+}
+footer img {
+    height: 40px;
+    padding: 15px 100px;
+}
+/* biography page */
+.biography-container {
+    margin: 20px 200px;
+    position: relative;
+    height: 1028px;
+}
+.biography-container h1 {
+    position: absolute;
+    color: white;
+    top:150px;
+    left: 185px;
+    font-size: 40px;
+}
+.biography-container p {
+    color: pink;
+    position: absolute;
+    bottom: 100px;
+    font-weight: 700;
+}
+.biography-container-p {
+    margin: 10px 0;
+    position: absolute;
+    color: white;
+    top: 350px;
+    font-weight: 700;
+}
+.biography-container img {
+    position: absolute;
+    max-width: 1000px;
+    height: 1028px;
+}
+/* songs */
+.new-songs {
+    margin: 20px 0;
+}
+/* forms */
+.form-input {
+    margin: 20px 10px;
+}
+.gitlabel {
+    margin: 30px 0 0 10px;
+}
+#git-textarea {
+    width: 500px;
+}
+#form-button {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.mapiframe {
+    margin-left: 10px;
+}
